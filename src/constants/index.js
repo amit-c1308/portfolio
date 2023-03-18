@@ -262,4 +262,19 @@ const projects = [
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const emailConfig = {
+  serviceId: "service_4vlz6bh",
+  templateId: "template_sty22fa",
+  publicKey: "6rtMws3Mi3naBtbUl",
+  toName: "Amit Choudhary",
+  toEmail: "amit.c1308@gmail.com",
+};
+
+export {
+  services,
+  technologies,
+  experiences,
+  testimonials,
+  projects,
+  emailConfig,
+};
